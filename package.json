@@ -1,0 +1,23 @@
+{
+  "name": "yt-ui-playgroud",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@opentiny/vue": "^3.16.0",
+    "@vue/repl": "^4.1.2",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@opentiny/unplugin-tiny-vue": "0.0.2",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
